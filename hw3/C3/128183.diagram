@@ -1,0 +1,49 @@
+format 70
+
+classcanvas 128055 class_ref 128183 // DLinkList
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 228 80 2000
+end
+classcanvas 128311 class_ref 128311 // Node
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 373 35 2000
+end
+classcanvas 128439 class_ref 128439 // Data
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 538 97 2000
+end
+classcanvas 128567 class_ref 134967 // Iterator
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 87 82 2005
+end
+textcanvas 140343 "next"
+  xyzwh 428 19 2008 26 16
+textcanvas 140471 "prev"
+  xyzwh 483 75 2007 49 20
+relationcanvas 129079 relation_ref 134967 // <unidirectional association>
+  decenter_end 554
+  from ref 128567 z 2006 to ref 128055
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 138679 relation_ref 158007 // <directional composition>
+  from ref 128055 z 2001 to ref 128311
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 139831 relation_ref 164663 // <association>
+  decenter_begin 256
+  from ref 128311 z 2001 to point 508 91
+  line 139959 z 2001 to point 508 59
+  line 142391 z 2001 to point 508 13
+  line 140215 z 2001 to point 421 13
+  line 140087 z 2001 to ref 128311
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 142263 relation_ref 165431 // <directional composition>
+  from ref 128311 z 2001 to ref 128439
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

@@ -1,0 +1,14 @@
+window_sizes 1200 700 300 894 501 120
+diagrams
+  active  classdiagram_ref 128183 // DLinkList
+    833 476 100 4 0 0
+end
+show_stereotypes
+selected operation_ref 162999 // currentItem
+open
+  class_ref 128183 // DLinkList
+  class_ref 128311 // Node
+  class_ref 128439 // Data
+  class_ref 134967 // Iterator
+end
+end
